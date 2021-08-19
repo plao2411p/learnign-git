@@ -1,15 +1,15 @@
 #include <iostream>
-
-int main(int, char**) {
-    float x = 0;
-
+using namespace std;
+int main()
+{   cout.precision(17);
+    double x = 0;
     for (int i = 0; i < 100000; i++)
     {
         for (int j = 0; j < 100000; j++)
         {
             x += 0.2;
-        }        
+        }
     }
-    std::cout << x;
+    cout << x <<endl;
     return 0;
 }
