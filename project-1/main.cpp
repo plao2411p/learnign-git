@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 int main()
-{   cout.precision(17);
+{
+    cout.precision(17);
     double x = 0;
     for (int i = 0; i < 100000; i++)
     {
@@ -10,6 +11,6 @@ int main()
             x += 0.2;
         }
     }
-    cout << x <<endl;
+    cout << x << endl;
     return 0;
 }
